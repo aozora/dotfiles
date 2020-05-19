@@ -63,7 +63,7 @@ echo "installing a few global npm packages"
 npm install --global rimraf serve
 
 echo "installing apps with brew cask"
-brew cask install alfred google-chrome firefox opera \
+brew cask install google-chrome firefox opera \
 itsycal sublime-text macpass boom-3d \
 qlvideo quicklook-json webpquicklook iterm2 \
 vlc qbittorrent zoomus flux \

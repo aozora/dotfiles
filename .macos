@@ -67,10 +67,11 @@ brew cask install google-chrome firefox opera \
 itsycal sublime-text macpass boom-3d \
 qlvideo quicklook-json webpquicklook iterm2 \
 vlc qbittorrent zoomus flux \
-tripmode sketch adobe-acrobat-reader \
+tripmode sketch skim \
 webstorm visual-studio-code dash keka \
 skype telegram signal protonvpn \
 clamxav caption microsoft-office
+# adobe-acrobat-reader \
 
 # echo "Generating an RSA token for GitHub"
 # mkdir -p ~/.ssh

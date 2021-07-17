@@ -63,7 +63,7 @@ echo "installing a few global npm packages"
 npm install --global rimraf serve
 
 echo "installing apps with brew cask"
-brew cask install google-chrome firefox opera \
+brew install --cask google-chrome firefox opera \
 itsycal sublime-text macpass boom-3d \
 qlvideo quicklook-json webpquicklook iterm2 \
 vlc qbittorrent zoomus flux \
@@ -174,7 +174,8 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 # defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
 
 # Disable the crash reporter
-defaults write com.apple.CrashReporter DialogType -string "none"
+# ATTENTION: potentially this can cause finder crash loop under Big Sur
+# defaults write com.apple.CrashReporter DialogType -string "none"
 
 # Set Help Viewer windows to non-floating mode
 defaults write com.apple.helpviewer DevMode -bool true

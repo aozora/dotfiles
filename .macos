@@ -71,8 +71,10 @@ brew cask install brave-browser firefox \
   qlvideo quicklook-json webpquicklook hyper \
   vlc biglybt zoomus flux \
   tripmode sketch skim \
+  blender \
   webstorm visual-studio-code keka \
-  skype telegram signal protonvpn \
+  skype telegram signal \
+  protonvpn protonmail-bridge serviio \
   clamxav microsoft-office
 # adobe-acrobat-reader \
 
@@ -959,7 +961,12 @@ install: \n\
   Daily Wallpapaer for Bing (App Store) \n\
   Pixelmator Pro (App Store) \n\
   Runcat (App Store) \n\
+  1Blocker (App Store) \n\
+  Furiganify! (App Store) \n\
+  DuckDuckGo Privacy (App Store) \n\
+  Miro Video Converter \n\
   Audacity (https://www.audacityteam.org/download/) \n\
+  Adobe Creative Cloud (https://www.adobe.com/creativecloud.html) \n\
 \n\
 Restart Terminal.app\n\
 copy git config from your backup/re-login \n\
